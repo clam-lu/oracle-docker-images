@@ -17,7 +17,7 @@
 #
 # PULL BASE IMAGE
 # -----------------------------------
-FROM oraclelinux:7-slim
+FROM 7-slim-enhanced
 
 # Environment variables required for this build (do NOT change)
 # ----------------------------------------------

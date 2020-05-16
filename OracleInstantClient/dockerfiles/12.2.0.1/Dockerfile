@@ -23,7 +23,7 @@
 #      $ docker build --pull -t oracle/instantclient:12.2.0.1 .
 #
 #
-FROM oraclelinux:7-slim
+FROM 7-slim-enhanced
 
 ADD oracle-instantclient*.rpm /tmp/
 

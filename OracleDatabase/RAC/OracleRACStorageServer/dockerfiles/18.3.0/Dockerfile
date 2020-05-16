@@ -14,7 +14,7 @@
 #
 # Pull base image
 # ---------------
-FROM oraclelinux:7-slim
+FROM 7-slim-enhanced
 
 # Maintainer
 # ----------

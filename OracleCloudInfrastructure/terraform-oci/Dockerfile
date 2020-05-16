@@ -1,4 +1,4 @@
-FROM oraclelinux:7-slim
+FROM 7-slim-enhanced
 
 ARG TERRAFORM_VERSION
 ARG OCI_PROVIDER_VERSION
