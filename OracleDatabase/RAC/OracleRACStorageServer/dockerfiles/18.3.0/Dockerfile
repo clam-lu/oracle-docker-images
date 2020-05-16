@@ -14,7 +14,7 @@
 #
 # Pull base image
 # ---------------
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 # Maintainer
 # ----------

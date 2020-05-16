@@ -1,4 +1,4 @@
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 ARG TERRAFORM_VERSION
 ARG OCI_PROVIDER_VERSION

@@ -23,7 +23,7 @@
 
 # The builder image will be use to uncompress the tar.gz file with the Java Runtime.
 
-FROM 7-slim-enhanced as builder
+FROM base-ol7-slim-enhanced as builder
 
 MAINTAINER Aurelio Garcia-Ribeyro <aurelio.garciaribeyro@oracle.com>
 
@@ -54,7 +54,7 @@ RUN set -eux; \
 	rm /tmp/jdk.tgz; 
 	
 ## Get a fresh version of SLIM for the final image	
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 # Default to UTF-8 file.encoding
 ENV LANG en_US.UTF-8

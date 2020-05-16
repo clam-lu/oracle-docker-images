@@ -63,7 +63,7 @@
 #   oracle-instantclientXX.Y-odbc       : ODBC Package - Additional libraries for enabling ODBC applications
 #
 
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 ARG release=19
 ARG update=6

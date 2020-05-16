@@ -88,7 +88,7 @@ attack surface and is updated whenever a CVE errata is published.
 script doesn't have the functionality you need, open an issue and work with
 the image owner to implement it.
 1. Specify a version in the `FROM` directive, i.e. use
-`FROM 7-slim-enhanced` or `FROM java/serverjre:8`.
+`FROM base-ol7-slim-enhanced` or `FROM java/serverjre:8`.
 1. All images must provide a `CMD` or `ENTRYPOINT`. If your image is designed
 to be extended, then this should output documentation on how to extend the
 image to be useful.

@@ -17,7 +17,7 @@
 #
 # PULL BASE IMAGE
 # -----------------------------------
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 # Environment variables required for this build (do NOT change)
 # ----------------------------------------------

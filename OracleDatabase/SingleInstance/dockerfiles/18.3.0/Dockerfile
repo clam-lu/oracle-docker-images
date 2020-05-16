@@ -20,7 +20,7 @@
 #
 # Pull base image
 # ---------------
-FROM 7-slim-enhanced as base
+FROM base-ol7-slim-enhanced as base
 
 # Labels
 # ------

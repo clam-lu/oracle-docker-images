@@ -14,7 +14,7 @@
 #      $ docker build --pull -t oracle/instantclient:18 .
 #
 #
-FROM 7-slim-enhanced
+FROM base-ol7-slim-enhanced
 
 ARG release=18
 ARG update=5
