@@ -3,9 +3,9 @@
 # ---------------
 FROM oraclelinux:7-slim as base-ol7-slim-enhanced
 
-# Maintainer
-# ----------
-MAINTAINER ch-lam <ch.lambert@gmail.com>
+# Labels
+LABEL "provider"="ch-lam"
 
 # add mimimal stuff
-RUN yum -y install vim 
+RUN yum -y install vim ;\
+    rm -rf /var/cache/yum
